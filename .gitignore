@@ -23,6 +23,11 @@
 !Shaders/**/*.usf
 !Shaders/**/*.ush
 
+#Binaries
+!Binaries/**/*.dll
+!Binaries/**/*.target
+!Binaries/**/*.modules
+
 #Source content
 #	Textures
 !SourceContent/**/*.png
