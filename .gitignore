@@ -1,0 +1,37 @@
+*
+!*/
+
+#git files itself
+!*.git*
+
+#unreal itself
+!*.uproject
+
+#Configs
+!Config/**/*.ini
+
+#Binary content
+!Content/**/*.umap
+!Content/**/*.uasset
+
+#Source code
+!Source/**/*.cs
+!Source/**/*.cpp
+!Source/**/*.h
+
+#Shaders code
+!Shaders/**/*.usf
+!Shaders/**/*.ush
+
+#Source content
+#	Textures
+!SourceContent/**/*.png
+!SourceContent/**/*.tga
+!SourceContent/**/*.dds
+#	Models
+!SourceContent/**/*.fbx
+!SourceContent/**/*.obj
+!SourceContent/**/*.blend
+#	Sounds
+!SourceContent/**/*.ogg
+!SourceContent/**/*.wav
